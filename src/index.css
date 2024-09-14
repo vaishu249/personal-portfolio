@@ -12,7 +12,24 @@
 :root{
     --bg-color:#e6e8ed;
     --border-color:rgba(0,0,0,0.05);
-}
+    --text-color:#1e1e1e;
+    --background-button:linear-gradient(135deg,#aa70e0,#7059e2);
+    --button-color:#fff;
+  }
 body{
     background-color: var(--bg-color);
+}
+button{
+  height: 45px;
+  width: 160px;
+  border: none;
+  font-size: 16px;
+  color: var(--button-color);
+  background: var(--background-button);
+  font-weight: 600;
+  border-radius: 30px;
+  transition: .6s;
+}
+button:hover{
+  transform: scale(1.05);
 }
