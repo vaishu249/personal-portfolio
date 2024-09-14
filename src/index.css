@@ -10,7 +10,8 @@
     font-family: 'syne';
 }
 :root{
-    --bg-color:#dee5f1;
+    --bg-color:#e6e8ed;
+    --border-color:rgba(0,0,0,0.05);
 }
 body{
     background-color: var(--bg-color);
