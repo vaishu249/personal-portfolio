@@ -1,6 +1,20 @@
 import React from 'react'
 import "../Main/Main.css"
 const Main = () => {
+    const DarkMode = () =>{
+        document.querySelector('body').setAttribute('data-theme','Dark')
+    }
+    const LightMode = () =>{
+        document.querySelector('body').setAttribute('data-theme','Light')
+    }
+    const ThemeHandler =() =>{
+        if(document.querySelector('body').getAttribute('data-theme')=='Light'){
+            DarkMode();
+        }
+        else{
+            LightMode();
+        }
+    }
     return (
         <>
             <div className='navbar'>
@@ -15,7 +29,7 @@ const Main = () => {
                     </li>
                 </ul>
                 <div className='navbar-btn'>
-                    <i className='ri-sun-line'></i>
+                    <i className='ri-sun-line' onClick={ThemeHandler}></i>
                     <button>Let's Talk</button>
                     <i className='ri-menu-3-line'></i>
                 </div>

@@ -16,6 +16,8 @@
     --background-button:linear-gradient(135deg,#aa70e0,#7059e2);
     --button-color:#fff;
   }
+  [data-theme='Dark']
+
 body{
     background-color: var(--bg-color);
 }
