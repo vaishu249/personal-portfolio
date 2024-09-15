@@ -20,8 +20,8 @@ const Main = () => {
             <div className='navbar'>
                 <ul>
                     <li><a href='#'><span>Home</span> <i className='ri-home-line'></i> </a></li>
-                    <li><a href='#'><span>About Me</span> <i className='ri-user-line'></i></a></li>
                     <li><a href='#'><span>Portfolio</span><i className='ri-user-4-line'></i></a></li>
+                    <li><a href='#'><span>About Me</span> <i className='ri-user-line'></i></a></li>
                     <li><a href='#'><span>Resume</span><i className='ri-file-list-line'></i></a></li>
                     <li><a href='#'><span>Contact</span><i className='ri-contacts-book-line'></i></a></li>
                     <li id='nav_ThemeBtn' onClick={ThemeHandler}>

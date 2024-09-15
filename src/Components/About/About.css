@@ -1,0 +1,67 @@
+.about-wrapper {
+    margin: 80px 0;
+    gap: 22px;
+}
+
+.service-wraper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+
+}
+
+.service-wraper .service-card {
+    padding: 20px 30px;
+    border-radius: 18px;
+    border: 0.5px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+}
+
+.service-wraper .service-card h2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+
+.service-wraper .service-card h2 span {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.service-wraper .service-card h2 p {
+    font-size: 20px;
+    font-weight: lighter;
+}
+.service-wraper .service-card h2 i{
+    font-size: 80px;
+}
+
+.about-wrapper p {
+    font-size: 25px;
+    font-weight: lighter;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    color: var(--text-color);
+}
+.about-wrapper button{
+    margin: 20px 0;
+
+}
+@media screen and (max-width:850px) {
+    .service-wraper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+    .service-wraper .service-card h2 i{
+        font-size: 60px;
+    }
+}

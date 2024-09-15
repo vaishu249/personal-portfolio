@@ -7,7 +7,7 @@ const Portfolio = () => {
         <>
             <div className='portfolio-wrapper section'>
                 <h3 className='section-heading'><i className='ri-shining-fill'>Portfolio</i></h3>
-                <h1>Check out my <br />Featured Projects</h1>
+                <h1 className='section-title'>Check out my <br />Featured Projects</h1>
                 <div className='portfolio-card'>
                     <div className='card'>
                         <img src={portfolioImg} alt='Portfolio-img'/>

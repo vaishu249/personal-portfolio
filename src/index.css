@@ -59,7 +59,7 @@ button:hover{
   width: 100%;
 }
 .section-heading{
-  font-size: 16px;
+  font-size: 20px;
   display: flex;
   gap: 8px;
   padding: 8px 18px;
@@ -68,9 +68,36 @@ button:hover{
   width: fit-content;
   border-radius: 30px;
 }
+.section-title{
+  font-size: 80px;
+  line-height: 85px;
+  margin: 20px 0;
+  font-weight: 700;
+  background: var(--gradient-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media screen and (max-width:1300px){
+  .section-title{
+    font-size: 65px;
+    line-height: 70px;
+  }
+}
 @media screen and (max-width:1100px) {
   .main-wrapper{
     margin-left: 0%;
     width: 100%;
+  }
+}
+@media screen and (max-width:768px) {
+  .section-title{
+      font-size: 45px;
+      line-height: 55px;
+  }
+}
+@media screen and (max-width:545px) {
+  .section-title{
+      font-size: 30px;
+      line-height: 40px;
   }
 }
