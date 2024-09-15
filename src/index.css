@@ -16,14 +16,17 @@
     --background-button:linear-gradient(135deg,#aa70e0,#7059e2);
     --button-color:#fff;
     --profile-bg-color:#ebf0f7;
+    --gradient-text:-webkit-linear-gradient(15deg,#8756cc,#5b4ec4);
   }
   [data-theme='Dark']{
     --bg-color:#111111;
     --border-color:rgba(255,255,255,0.2);
     --text-color:#e6ebf4;
-    --background-button:linear-gradient(135deg,#aa70e0,#7059e2);
-    --button-color:#fff;
+    --background-button:linear-gradient(135deg,#e1bac5,#cec4ef);
+    --button-color:#111111;
     --profile-bg-color:#111111;
+    --gradient-text:-webkit-linear-gradient(15deg,#e1bac5,#cec4ef);
+
   }
 
 body{
@@ -47,6 +50,22 @@ button:hover{
   margin-left: 25%;
   width: 75%;
   padding: 50px;
+}
+.section{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 100%;
+}
+.section-heading{
+  font-size: 16px;
+  display: flex;
+  gap: 8px;
+  padding: 8px 18px;
+  border: 0.5px solid var(--border-color);
+  color: var(--text-color);
+  width: fit-content;
+  border-radius: 30px;
 }
 @media screen and (max-width:1100px) {
   .main-wrapper{

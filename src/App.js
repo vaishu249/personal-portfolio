@@ -8,8 +8,8 @@ function App() {
       <Profile/>
       <div className='main-wrapper'>
         <Main/>
+        <Header/>
       </div>
-      <Header/>
     </>
   );
 }

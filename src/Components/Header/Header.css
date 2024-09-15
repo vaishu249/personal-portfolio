@@ -1,0 +1,31 @@
+.header-wrapper{
+    min-height: 60vh;
+    justify-content: end;
+    gap: 50px;
+}
+.header-wrapper h1{
+    font-size: 80px;
+    line-height: 85px;
+    font-weight: 700;
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.header-wrapper .header-btns{
+    display: flex;
+    gap: 20px;
+}
+.header-wrapper .header-btns button{
+    background: transparent;
+    border: 0.5px solid var(--border-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 150px;
+}
+.header-wrapper .header-btns button:nth-of-type(2){
+    width: 180px;
+}
+
