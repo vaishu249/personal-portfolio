@@ -1,0 +1,22 @@
+.portfolio-wrapper{
+    margin-top: 80px;
+}
+.portfolio-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.portfolio-card .card{
+    width: 100;
+    position: relative;
+    border-radius: 8px;
+}
+.portfolio-card .card .card-tag{
+    position: absolute;
+    bottom: -40%;
+    left: 5%;
+}
+
+.portfolio-card .card img{
+    width: 100%;
+}
