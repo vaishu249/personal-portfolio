@@ -24,7 +24,7 @@ const Main = () => {
                     <li><a href='#'><span>Portfolio</span><i className='ri-user-4-line'></i></a></li>
                     <li><a href='#'><span>Resume</span><i className='ri-file-list-line'></i></a></li>
                     <li><a href='#'><span>Contact</span><i className='ri-contacts-book-line'></i></a></li>
-                    <li id='nav_ThemeBtn'>
+                    <li id='nav_ThemeBtn' onClick={ThemeHandler}>
                         <i className='ri-sun-line' ></i>
                     </li>
                 </ul>
