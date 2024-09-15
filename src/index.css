@@ -17,6 +17,7 @@
     --button-color:#fff;
     --profile-bg-color:#ebf0f7;
     --gradient-text:-webkit-linear-gradient(15deg,#8756cc,#5b4ec4);
+    --bg-black:#000;
   }
   [data-theme='Dark']{
     --bg-color:#111111;
@@ -26,7 +27,7 @@
     --button-color:#111111;
     --profile-bg-color:#111111;
     --gradient-text:-webkit-linear-gradient(15deg,#e1bac5,#cec4ef);
-
+    --bg-black:#111;
   }
 
 body{

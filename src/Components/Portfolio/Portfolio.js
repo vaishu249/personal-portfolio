@@ -1,6 +1,7 @@
 import React from 'react'
 import "../Portfolio/Portfolio.css"
-import portfolioImg from "../../assets/images/portfolio1.png"
+import portfolioImg from "../../assets/images/portfolio1.png";
+import sampleImg from "../../assets/images/profile.png"
 const Portfolio = () => {
     return (
         <>

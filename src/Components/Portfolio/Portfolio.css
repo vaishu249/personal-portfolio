@@ -10,13 +10,38 @@
     width: 100;
     position: relative;
     border-radius: 8px;
+    overflow: hidden;
 }
 .portfolio-card .card .card-tag{
     position: absolute;
     bottom: -40%;
     left: 5%;
+    transition: .6s;
+    display: flex;
+    gap: 12px ;
+    align-items: center;
+    padding: 5px 12px ;
 }
 
 .portfolio-card .card img{
     width: 100%;
+    border-radius: 8px;
+
 }
+.portfolio-card .card:hover .card-tag{
+    bottom: 5%;
+    
+}
+.portfolio-card .card:hover .card-tag span{
+    border-radius: 30px;
+    background-color: #e6ebf468;
+    border-radius: 30px;
+    color: var(--button-color);
+    padding: 10px;
+}
+.portfolio-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+
