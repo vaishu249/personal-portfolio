@@ -40,5 +40,18 @@ textarea{
     font-size: 18px;
 }
 .contact-detail{
-    
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+.contact-detail .contact-card h3{
+    font-size: 22px;
+    color: var(--text-color);
+}
+.contact-detail .contact-card h3 span{
+    display: flex;
+    font-weight: 300;
+    font-size: 18px;
 }
