@@ -10,7 +10,8 @@ const Resume = () => {
   ];
   
   return (
-    <div className='section resume-wrapper'>
+    <section id='resume'>
+      <div className='section resume-wrapper'>
       <h3 className='section-heading'><i className='ri-shining-fill'>Resume</i></h3>
       <h1 className='section-title'>Education and <br />Practical Experience</h1>
       <div className='education-wrapper'>
@@ -77,6 +78,7 @@ const Resume = () => {
       ))}
     </div>
     </div>
+    </section>
   )
 }
 

@@ -5,7 +5,7 @@ const About = () => {
     <div className='section about-wrapper'>
       <h3 className='section-heading'><i className='ri-shining-fill'>About Me</i></h3>
       <h1 className='section-title'>Turning Complex <br />Problems Into Small Designs .</h1>
-      <p>
+      <p className='aboutme'>
         I'm a dedicated and passionate full stack developer with a strong focus
         on creating efficient, scalable,
         and user-friendly web applications.

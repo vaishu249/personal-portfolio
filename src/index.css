@@ -9,6 +9,25 @@
 
     font-family: 'syne';
 }
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 5rem;
+}
 :root{
     --bg-color:#e6e8ed;
     --border-color:rgba(0,0,0,0.05);
@@ -34,7 +53,7 @@ body{
     background-color: var(--bg-color);
 }
 button{
-  height: 45px;
+  height: 40px;
   width: 160px;
   border: none;
   font-size: 16px;
@@ -69,8 +88,8 @@ button:hover{
   border-radius: 30px;
 }
 .section-title{
-  font-size: 70px;
-  line-height: 80px;
+  font-size: 50px;
+  line-height: 60px;
   margin: 20px 0;
   font-weight: 600;
   background: var(--gradient-text);
@@ -79,8 +98,8 @@ button:hover{
 }
 @media screen and (max-width:1300px){
   .section-title{
-    font-size: 65px;
-    line-height: 70px;
+    font-size: 40px;
+    line-height: 60px;
   }
 }
 @media screen and (max-width:1100px) {
@@ -91,8 +110,8 @@ button:hover{
 }
 @media screen and (max-width:768px) {
   .section-title{
-      font-size: 45px;
-      line-height: 55px;
+    font-size: 40px;
+    line-height: 60px;
   }
 }
 @media screen and (max-width:545px) {
