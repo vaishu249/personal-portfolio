@@ -6,7 +6,7 @@ const Profile = () => {
         <div className='profile-wrapper'>
             <h2>Vaisnavi Gundgire</h2>
             <div className='profile-img'>
-                <img src={profileImg} />
+                <img src={profileImg} alt='profile image '/>
             </div>
             <div className='profile-specialization'>
                 <p>specialization</p>
