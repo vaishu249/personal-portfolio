@@ -1,7 +1,6 @@
 import React from 'react'
 import "../Portfolio/Portfolio.css"
 import portfolioImg from "../../assets/images/portfolio1.png";
-import sampleImg from "../../assets/images/profile.png"
 const Portfolio = () => {
     return (
         <>
@@ -10,28 +9,28 @@ const Portfolio = () => {
                 <h1 className='section-title'>Check out my <br />Featured Projects</h1>
                 <div className='portfolio-card'>
                     <div className='card'>
-                        <img src={portfolioImg} alt='sample1'/>
+                        <img src={portfolioImg} alt='portfolio image 1'/>
                         <div className='card-tag'>
                             <span>Ilustration</span>
                             <span>Branding</span>
                         </div>
                     </div>
                     <div className='card'>
-                        <img src={portfolioImg} alt='sample2'/>
+                        <img src={portfolioImg} alt='portfolio image 2'/>
                         <div className='card-tag'>
                             <span>Ilustration</span>
                             <span>Branding</span>
                         </div>
                     </div>
                     <div className='card'>
-                        <img src={portfolioImg} alt='sample3'/>
+                        <img src={portfolioImg} alt='portfolio image 3'/>
                         <div className='card-tag'>
                             <span>Ilustration</span>
                             <span>Branding</span>
                         </div>
                     </div>
                     <div className='card'>
-                        <img src={portfolioImg} alt='sample4'/>
+                        <img src={portfolioImg} alt='portfolio image 4'/>
                         <div className='card-tag'>
                             <span>Ilustration</span>
                             <span>Branding</span>
