@@ -10,28 +10,28 @@ const Portfolio = () => {
                 <h1 className='section-title'>Check out my <br />Featured Projects</h1>
                 <div className='portfolio-card'>
                     <div className='card'>
-                        <img src={portfolioImg} alt='Portfolio-img'/>
+                        <img src={portfolioImg} alt='sample1'/>
                         <div className='card-tag'>
                             <span>Ilustration</span>
                             <span>Branding</span>
                         </div>
                     </div>
                     <div className='card'>
-                        <img src={portfolioImg} alt='Portfolio-img'/>
+                        <img src={portfolioImg} alt='sample2'/>
                         <div className='card-tag'>
                             <span>Ilustration</span>
                             <span>Branding</span>
                         </div>
                     </div>
                     <div className='card'>
-                        <img src={portfolioImg} alt='Portfolio-img'/>
+                        <img src={portfolioImg} alt='sample3'/>
                         <div className='card-tag'>
                             <span>Ilustration</span>
                             <span>Branding</span>
                         </div>
                     </div>
                     <div className='card'>
-                        <img src={portfolioImg} alt='Portfolio-img'/>
+                        <img src={portfolioImg} alt='sample4'/>
                         <div className='card-tag'>
                             <span>Ilustration</span>
                             <span>Branding</span>

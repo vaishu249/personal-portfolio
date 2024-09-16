@@ -8,7 +8,7 @@ const Main = () => {
         document.querySelector('body').setAttribute('data-theme','Light')
     }
     const ThemeHandler =() =>{
-        if(document.querySelector('body').getAttribute('data-theme')=='Light'){
+        if(document.querySelector('body').getAttribute('data-theme')==='Light'){
             DarkMode();
         }
         else{
