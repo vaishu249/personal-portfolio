@@ -4,6 +4,7 @@ import portfolioImg from "../../assets/images/portfolio1.png";
 const Portfolio = () => {
     return (
         <>
+            <section id='portfolio'>
             <div className='portfolio-wrapper section'>
                 <h3 className='section-heading'><i className='ri-shining-fill'>Portfolio</i></h3>
                 <h1 className='section-title'>Check out my <br />Featured Projects</h1>
@@ -38,6 +39,7 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
+            </section>
         </>
     )
 }

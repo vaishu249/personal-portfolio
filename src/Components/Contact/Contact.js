@@ -2,7 +2,8 @@ import React from 'react'
 import "../Contact/Contact.css"
 const Contact = () => {
   return (
-    <div className='contact-wrapper section'>
+    <section id='contact'>
+      <div className='contact-wrapper section'>
       <h3 className='section-heading'><i className='ri-shining-fill'> Contact</i></h3>
       <h1 className='section-title'>Let's Make <br />Awesome Together </h1>
 
@@ -41,6 +42,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
+    </section>
   )
 }
 

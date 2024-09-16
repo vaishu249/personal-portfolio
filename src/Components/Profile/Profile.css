@@ -4,7 +4,7 @@
     justify-content: space-between;
     min-height: 50vh;
     width: 300px;
-    padding: 30px 30px;
+    padding: 20px 30px;
     position: fixed;
     top: 5%;
     left: 5%;
@@ -14,8 +14,9 @@
 
 }
 .profile-wrapper h2{
-    font-size: 25px;
+    font-size: 20px;
     letter-spacing: 0.5px;
+    line-height: 50px;
 }
 .profile-wrapper .profile-social-link{
     display: flex;
@@ -82,5 +83,15 @@
 @media screen and (max-width:700px) {
     .profile-wrapper{
         width: 70%;
+    }
+    .profile-wrapper .profile-img img{
+        height: auto;
+        width: 200px;
+    }
+}
+@media screen and (max-width:500px) {
+    .profile-wrapper .profile-img img{
+        height: auto;
+        width: 200px;
     }
 }

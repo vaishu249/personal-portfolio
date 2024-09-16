@@ -8,11 +8,11 @@ const Main = () => {
         document.querySelector('body').setAttribute('data-theme','Light')
     }
     const ThemeHandler =() =>{
-        if(document.querySelector('body').getAttribute('data-theme')==='Light'){
-            DarkMode();
+        if(document.querySelector('body').getAttribute('data-theme')==='Dark'){
+            LightMode();
         }
         else{
-            LightMode();
+            DarkMode();
         }
     }
     return (
@@ -31,7 +31,6 @@ const Main = () => {
                 <div className='navbar-btn'>
                     <i className='ri-sun-line' onClick={ThemeHandler}></i>
                     <button>Let's Talk</button>
-                    <i className='ri-menu-3-line'></i>
                 </div>
             </div>
 

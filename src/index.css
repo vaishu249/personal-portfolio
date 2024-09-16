@@ -29,6 +29,17 @@ html::-webkit-scrollbar-thumb {
   border-radius: 5rem;
 }
 :root{
+  --bg-color:#111111;
+  --border-color:rgba(255,255,255,0.2);
+  --text-color:#e6ebf4;
+  --background-button:linear-gradient(135deg,#e1bac5,#cec4ef);
+  --button-color:#111111;
+  --profile-bg-color:#111111;
+  --gradient-text:-webkit-linear-gradient(15deg,#e1bac5,#cec4ef);
+  --bg-black:#111;
+
+  }
+  [data-theme='Dark']{
     --bg-color:#e6e8ed;
     --border-color:rgba(0,0,0,0.05);
     --text-color:#1e1e1e;
@@ -37,16 +48,6 @@ html::-webkit-scrollbar-thumb {
     --profile-bg-color:#ebf0f7;
     --gradient-text:-webkit-linear-gradient(15deg,#8756cc,#5b4ec4);
     --bg-black:#000;
-  }
-  [data-theme='Dark']{
-    --bg-color:#111111;
-    --border-color:rgba(255,255,255,0.2);
-    --text-color:#e6ebf4;
-    --background-button:linear-gradient(135deg,#e1bac5,#cec4ef);
-    --button-color:#111111;
-    --profile-bg-color:#111111;
-    --gradient-text:-webkit-linear-gradient(15deg,#e1bac5,#cec4ef);
-    --bg-black:#111;
   }
 
 body{

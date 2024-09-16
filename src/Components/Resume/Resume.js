@@ -24,7 +24,7 @@ const Resume = () => {
         </div>
         <div className='Education'>
           <h2>Jan.2019-May.2022</h2>
-          <h3>Jaywantrao Sawant Polytechnic Hadapsar Pune</h3>
+          <h3>Jaywantrao Sawant Polytechnic Pune</h3>
           <p>Diploma (Computer) : 86.78%</p>
         </div>
         <div className='Education'>
@@ -40,12 +40,13 @@ const Resume = () => {
         <div className='Education'>
           <h2>2024</h2>
           <h3>Restaurant Website Design using React Js</h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard dummy text ever
-            since the 1500s, when an Lorem Ipsum is simply dummy text of 
-            the printing and typesetting industry. Lorem Ipsum has 
-            been the industry's standard dummy text ever since the 1500s, 
-            when an
+          <p>In this project, I developed a dynamic and responsive restaurant
+             website using React JS. The site features a clean, modern design 
+             tailored to enhance user experience and streamline navigation. 
+             Key functionalities include a menu page with interactive elements 
+             for showcasing various dishes, an online reservation system 
+             integrated with calendar functionality, and a contact form for 
+             customer inquiries.
           </p>
         </div>
         <div className='Education'>
