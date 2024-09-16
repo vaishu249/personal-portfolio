@@ -13,7 +13,8 @@
 }
 .education-wrapper h1{
     margin-bottom: 30px;
-    
+    color: var(--text-color);
+
 }
 .Education h2{
     font-size: 30px;
@@ -26,6 +27,53 @@
 .Education p{
     font-size: 20px;
 }
+
+.skills-container {
+    max-width: 100%;
+    color: var(--text-color);
+    
+  }
+  
+  .skills-container  h1 {
+    margin-bottom: 30px;
+    border-bottom: 0.5px solid var(--border-color);
+    padding-bottom: 30px;
+  }
+  
+  .skill {
+    margin-bottom: 30px;
+    border-bottom: 0.5px solid var(--border-color);
+  }
+  
+  .skill-name {
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 30px;
+  }
+  
+  .skill-bar {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 30px;
+    position: relative;
+    margin-bottom: 25px;
+    margin-left: 30px;
+  }
+  
+  .skill-percentage {
+    background: var(--gradient-text);
+    height: 100%;
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 25px; 
+    border-radius: 10px;
+  }
+  
 @media screen and (max-width:800px) {
     .Education{
         display: block;

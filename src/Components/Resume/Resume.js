@@ -1,6 +1,14 @@
 import React from 'react'
 import "../Resume/Resume.css"
 const Resume = () => {
+
+  const skills = [
+    { name: "Data Structures & Algorithms", percentage: 60 },
+    { name: "React & Node.js", percentage: 60 },
+    { name: "HTML, CSS, JavaScript", percentage: 90 },
+    { name: "Python", percentage: 80 },
+  ];
+  
   return (
     <div className='section resume-wrapper'>
       <h3 className='section-heading'><i className='ri-shining-fill'>Resume</i></h3>
@@ -51,6 +59,23 @@ const Resume = () => {
           </p>
         </div>
       </div>
+
+      <div className="skills-container">
+      <h1>My Skills</h1>
+      {skills.map((skill, index) => (
+        <div key={index} className="skill">
+          <span className="skill-name">{skill.name}</span>
+          <div className="skill-bar">
+            <div
+              className="skill-percentage"
+              style={{ width: `${skill.percentage}%` }}
+            >
+              {skill.percentage}%
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
     </div>
   )
 }
