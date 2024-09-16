@@ -67,3 +67,8 @@
         margin: 50px 12%;
     }
 }
+@media screen and (max-width:700px) {
+    .profile-wrapper{
+        width: 70%;
+    }
+}
