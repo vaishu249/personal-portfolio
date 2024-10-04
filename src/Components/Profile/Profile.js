@@ -6,7 +6,7 @@ const Profile = () => {
         <div className='profile-wrapper'>
             <h2>Vaisnavi Gundgire</h2>
             <div className='profile-img'>
-                <img src={profileImg}/>
+                <img src={profileImg} />
             </div>
             <div className='profile-specialization'>
                 <p>specialization</p>
@@ -16,8 +16,12 @@ const Profile = () => {
                 <p>Follow me on social media</p>
                 <div className='profile-social-icons'>
                     <i className="ri-facebook-line"></i>
-                    <i className="ri-github-fill"></i>
-                    <i className="ri-instagram-line"></i>
+                    <a href='https://github.com/vaishu1109' target='_blank'>
+                        <i className="ri-github-fill"></i>
+                    </a>
+                    <a href='https://www.instagram.com/vaishnavi_gundgire/' target='_blank'>
+                        <i className="ri-instagram-line"></i>
+                    </a>
                 </div>
             </div>
             <button>let's Work Together!</button>
