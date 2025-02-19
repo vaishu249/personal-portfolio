@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Header/Header.css"
+import Download from "../Download/Download";
 const Header = () => {
   return (
     <>
@@ -12,10 +13,7 @@ const Header = () => {
                     <span>My Works </span> 
                     <i className='ri-layout-grid-line'></i>
                 </button>
-                <button>
-                    <span>Download CV </span> 
-                    <i className='ri-download-line'></i>
-                </button>
+                <Download/>
             </div>
         </div>
     </>

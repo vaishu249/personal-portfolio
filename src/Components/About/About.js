@@ -1,5 +1,6 @@
 import React from 'react'
 import "../About/About.css"
+import Download from '../Download/Download'
 const About = () => {
   return (
     <section id='about'>
@@ -73,7 +74,7 @@ const About = () => {
 
         </div>
 
-        <button>Download CV <i className='ri-download-line'></i></button>
+        <Download/>
       </div>
     </section>
   )
