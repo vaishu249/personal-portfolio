@@ -15,7 +15,9 @@ const Profile = () => {
             <div className='profile-social-link'>
                 <p>Follow me on social media</p>
                 <div className='profile-social-icons'>
-                    <i className="ri-facebook-line"></i>
+                    <a href='https://www.linkedin.com/in/vaishnavi-gundgire-b33126291/' target='_blank'>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
                     <a href='https://github.com/vaishu1109' target='_blank'>
                         <i className="ri-github-fill"></i>
                     </a>

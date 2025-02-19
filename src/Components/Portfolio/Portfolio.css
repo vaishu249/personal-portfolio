@@ -34,11 +34,11 @@
     
 }
 .portfolio-card .card:hover .card-tag span{
-    border-radius: 30px;
-    background-color: #e6ebf468;
-    border-radius: 30px;
-    color: var(--button-color);
+    border-radius: 10px;
+    background-color: var(--text-color);
+    color: var(--bg-color);
     padding: 10px;
+    font-size:15px;
 }
 .portfolio-card{
     display: grid;
